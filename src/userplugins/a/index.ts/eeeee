@@ -10,16 +10,6 @@ export default definePlugin({
         },
     ],
     patches: [],
-// ==UserScript==
-// @name         Button Clicker
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  Click the button when the class does not contain "Checked" and the element is visible
-// @author       You
-// @match        https://example.com/*  // Replace with the website URL
-// @grant        none
-// ==/UserScript==
-
 (function() {
     'use strict';
 
